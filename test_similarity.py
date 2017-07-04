@@ -26,7 +26,7 @@ class test_similarity_str(unittest.TestCase):
         self.assertFalse(similarity_str("world1", "hello1"), msg="Should return False input")
 
     def test_valid_str_sapce(self):
-            self.assertTrue(similarity_str("wor ld", "he llo"), msg="Should return True")
+        self.assertTrue(similarity_str("wor ld", "he llo"), msg="Should return True")
 
 
     def test_similarity2(self):

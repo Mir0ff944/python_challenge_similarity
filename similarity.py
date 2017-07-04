@@ -3,7 +3,7 @@ import re
 # asks user to input 2 strings
 while True:
     string1, string2 = raw_input ("Enter a string: "), raw_input("Enter second string: ")
-    if re.match("^[a-z\s]*$", string1) and re.match("^[a-z\s]*$", string2):
+    if re.match("^[a-zA-Z\s]*$", string1) and re.match("^[a-zA-Z\s]*$", string2):
         break
     else:
         print "Please enter a valid string. No numbers or other symbols allowed"
